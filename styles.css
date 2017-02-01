@@ -1,0 +1,45 @@
+body {
+  background-color: AntiqueWhite;
+  font-size: 15px;
+}
+
+h1 {
+  background-color: none;
+  color: darksalmon;
+  font-size: 1.5em;
+  font-style: bold;
+}
+
+
+div {
+    border-radius: 5px;
+    width: 850px;
+    height: 10px;
+}
+
+#header {
+    position: fixed;
+    z-index: 1;
+    height: 100px;
+    background-color: DarkSalmon;
+    text-align: center;
+}
+
+ul li {
+  font-family: opensans;
+  font-style: bold;
+  display: inline;
+  font-size: 13px;
+  margin: 30px;
+}
+
+#footer {
+	height: 20px;
+	background-color: DarkSalmon;
+	font-family: Open Sans, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #000000;
+  position: relative;
+	bottom: -950px;
+}
